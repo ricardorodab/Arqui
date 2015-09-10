@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void){
+  FILE *file;
+  int i;
+  file = fopen("pi_formato.txt","r");
+  for(i = 0; i< 1000; i++)
+    {
+      printf("%c",fgetc(file));
+    }
+  fclose(file);
+  return 0;
+}
