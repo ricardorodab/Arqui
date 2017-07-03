@@ -1,7 +1,0 @@
-#include <stdio.h>
-
-typedef struct li{
-  char head;
-  struct li *tail; } Lista;
-
-Lista n = {'a', NULL};
